@@ -1,0 +1,59 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+   	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js"></script>
+   	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-route.js"></script>
+   	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular-cookies.js"></script>	
+   	
+	<title>Semester Registration</title>
+   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+  	<link rel="stylesheet" href="styles/coursereg.css">
+	
+</head>
+<body ng-app="coursedemoapp">
+	
+	<div class="container-fluid" ng-controller="LoginController">
+	  <h1>	Welcome to Online Course Registration portal </h1>
+	  <div class="row">
+	    <div class="col-sm-6" style="background-color:lightblue;">
+	    </div>
+	    <div class="col-sm-6" style="background-color:lightblue;">
+	      <p>User : {{ getCurrentUser() }}</p>
+	    </div>
+	  </div>
+	</div>
+	
+
+
+	<div class="tab">
+	  <button class="tablinks"><a href="#/courses">Courses</a> </button>
+	  <button class="tablinks"><a href="#/profile">Profile</a></button>
+	</div>
+	
+	<div>
+	  <div ng-view></div>
+	</div>
+
+	<script src="js/app.js"></script>
+	<script src="js/app.route.js"></script>
+
+	<script src="js/login/login.module.js"></script>	
+	<script src="js/login/login.js"></script>	
+
+	<script src="js/courses/courses.module.js"></script>
+	<script src="js/courses/courses.controller.js"></script>
+<!-- 	<script src="js/courses/courses.route.js"></script>	
+ -->	
+ 
+	<script src="js/profile/profile.module.js"></script>
+	<script src="js/profile/profile.controller.js"></script>
+ 
+</body>
+</html>
