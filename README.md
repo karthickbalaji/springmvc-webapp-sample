@@ -9,8 +9,8 @@ Hibernate 4 is used for ORM to interact with backend
 Pre-requisites
 ---------------
 
-MySQL database
-Tomcat 8 container 
+- MySQL database
+- Tomcat 8 container 
 
 
 How to build 
