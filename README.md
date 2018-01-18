@@ -27,7 +27,8 @@ Alternatively, it can be run from CLI at root of src folder as
 How to test
 ---------------
 
-src/main/resources/import.sql contains default data for User and courses . 
+src/main/resources/import.sql contains default data for User and courses
+application.properties contain datasource configuration
 
 Use test/test or admin/admin for login
 
