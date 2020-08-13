@@ -2,8 +2,8 @@
 
 Students shall login using credentials and shall view, register courses and see their profile
 
-AngularJS used for frontend and MySQL for backend
-Spring MVC 4 container runs on middleware and provide REST controllers for operations
+AngularJS used for frontend and MySQL for backend.
+Spring MVC 4 container runs on middleware and provide REST controllers for operations.
 Hibernate 4 is used for ORM to interact with backend
 
 Pre-requisites
@@ -18,7 +18,7 @@ How to build
 
 This is a maven artifact, It can be imported to eclipse as Maven Project and run as 'Maven Install' 
 	
-Alternatively, it can be run from CLI at root of src folder as 
+Alternatively, it can be run from command prompt at root of src folder as 
 	
 ```
 	mvn clean install
